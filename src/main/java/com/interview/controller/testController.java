@@ -1,14 +1,12 @@
-package com.example.demo;
+package com.interview.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-
 @Controller
-public class FirstController {
-    @RequestMapping("/hello")
+public class testController {
+    @RequestMapping("hello1")
     public String test01(){
         return "hello";
     }
-
 }
